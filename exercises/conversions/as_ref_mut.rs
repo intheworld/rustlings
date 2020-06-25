@@ -5,13 +5,13 @@
 // I AM NOT DONE
 // Obtain the number of bytes (not characters) in the given argument
 // Add the AsRef trait appropriately as a trait bound
-fn byte_counter<T>(arg: T) -> usize {
+fn byte_counter<T: std::convert::AsRef<str>>(arg: T) -> usize {
     arg.as_ref().as_bytes().len()
 }
 
 // Obtain the number of characters (not bytes) in the given argument
 // Add the AsRef trait appropriately as a trait bound
-fn char_counter<T>(arg: T) -> usize {
+fn char_counter<T: std::convert::AsRef<str>>(arg: T) -> usize {
     arg.as_ref().chars().count()
 }
 

@@ -8,13 +8,15 @@
 
 // I AM NOT DONE
 
-pub fn generate_nametag_text(name: String) -> Option<String> {
+pub fn generate_nametag_text(name: String) -> Result<String, String> {
+    let op: Option<String>;
     if name.len() > 0 {
-        Some(format!("Hi! My name is {}", name))
+        op = Some(format!("Hi! My name is {}", name))
     } else {
         // Empty names aren't allowed.
-        None
+        op = None
     }
+    return op.ok_or("`name` was empty; it must be nonempty.".to_owned());
 }
 
 #[cfg(test)]
@@ -28,7 +30,7 @@ mod tests {
     fn generates_nametag_text_for_a_nonempty_name() {
         assert_eq!(
             generate_nametag_text("Beyoncé".into()),
-            Some("Hi! My name is Beyoncé".into())
+            Some("Hi! My name is Beyoncé".into()).ok_or("".into())
         );
     }
 

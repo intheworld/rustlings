@@ -23,6 +23,17 @@ struct Person {
 impl FromStr for Person {
     type Err = String;
     fn from_str(s: &str) -> Result<Person, Self::Err> {
+        let index = s.find(',');
+        if index.is_some() {
+            let i = index.unwrap();
+            let len = s.len();
+            let name = &s[0 .. i];
+            let age = s[i + 1 .. len].parse::<usize>();
+            if !age.is_err() && name.len() > 0 {
+                return Ok(Person { name: name.into(), age: age.unwrap() });
+            }
+        }
+        Err("parse error".to_string())
     }
 }
 

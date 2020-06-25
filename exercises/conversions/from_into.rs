@@ -35,6 +35,17 @@ impl Default for Person {
 // Otherwise, then return an instantiated Person object with the results
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        let index = s.find(',');
+        if index.is_some() {
+            let i = index.unwrap();
+            let len = s.len();
+            let name = &s[0 .. i];
+            let age = s[i + 1 .. len].parse::<usize>();
+            if !age.is_err() && name.len() > 0 {
+                return Person { name: name.into(), age: age.unwrap() };
+            }
+        }
+        Person::default()
     }
 }
 
