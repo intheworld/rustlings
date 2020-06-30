@@ -49,7 +49,7 @@ async fn index3() -> impl Responder {
 
 #[actix_rt::main]
 async fn main() -> std::io::Result<()>{
-    println!("starting server!");
+    println!("starting server !");
     let counter = web::Data::new(AppStateWithCounter {
         counter: Mutex::new(0)
     });

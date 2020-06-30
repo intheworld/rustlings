@@ -1,5 +1,5 @@
 [package]
-name = "web"
+name = "web-basic"
 version = "0.1.0"
 authors = ["liushuwei <liushuwei@bytedance.com>"]
 edition = "2018"
