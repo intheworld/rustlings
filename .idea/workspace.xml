@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/webapp/pastebin/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/webapp/web-basic/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e76314ad-88c6-4b1b-92e0-d9f0b1a10297" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KonanWorkspace">
+    <executables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="9jdgp7ys" />
+  </component>
+  <component name="ProjectId" id="1e9Zh0CXRIsYaKzbWLcemff8R4t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="language.rust.cargo" />
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e76314ad-88c6-4b1b-92e0-d9f0b1a10297" name="Default Changelist" comment="" />
+      <created>1593735885069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593735885069</updated>
+      <workItem from="1593735889163" duration="323000" />
+      <workItem from="1593736374292" duration="319000" />
+      <workItem from="1593736696983" duration="423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="812" y="441" key="#Notifications" timestamp="1593736124583">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state x="812" y="441" key="#Notifications/66.23.1726.1097@66.23.1726.1097" timestamp="1593736124583" />
+    <state x="393" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593736184184">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state x="393" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/66.23.1726.1097@66.23.1726.1097" timestamp="1593736184184" />
+    <state width="1684" height="303" key="GridCell.Tab.0.bottom" timestamp="1593736620738">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state width="1684" height="303" key="GridCell.Tab.0.bottom/66.23.1726.1097@66.23.1726.1097" timestamp="1593736620738" />
+    <state width="1684" height="303" key="GridCell.Tab.0.center" timestamp="1593736620738">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state width="1684" height="303" key="GridCell.Tab.0.center/66.23.1726.1097@66.23.1726.1097" timestamp="1593736620738" />
+    <state width="1684" height="303" key="GridCell.Tab.0.left" timestamp="1593736620738">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state width="1684" height="303" key="GridCell.Tab.0.left/66.23.1726.1097@66.23.1726.1097" timestamp="1593736620738" />
+    <state width="1684" height="303" key="GridCell.Tab.0.right" timestamp="1593736620738">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state width="1684" height="303" key="GridCell.Tab.0.right/66.23.1726.1097@66.23.1726.1097" timestamp="1593736620738" />
+    <state x="430" y="210" key="SettingsEditor" timestamp="1593736978758">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state x="430" y="210" key="SettingsEditor/66.23.1726.1097@66.23.1726.1097" timestamp="1593736978758" />
+    <state x="717" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593736596368">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state x="717" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/66.23.1726.1097@66.23.1726.1097" timestamp="1593736596368" />
+    <state x="630" y="326" width="598" height="490" key="find.popup" timestamp="1593737027491">
+      <screen x="66" y="23" width="1726" height="1097" />
+    </state>
+    <state x="630" y="326" width="598" height="490" key="find.popup/66.23.1726.1097@66.23.1726.1097" timestamp="1593737027491" />
+  </component>
+</project>
